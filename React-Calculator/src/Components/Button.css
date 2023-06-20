@@ -1,0 +1,32 @@
+.Button {
+    display: flex;
+    height: 12.5vh;
+    width: 33.33vw;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    outline: 2px solid rgb(24, 24, 24);
+    font-weight: 900;
+}
+
+.input {
+    background-color: gray;
+    color: white;
+}
+.output {
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
+.input:hover, .output:hover {
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+.operator {
+    background-color: #fe9241;
+    color: white;
+}
+.operator:hover {
+    background-color: #ff801f;
+    cursor: pointer;
+}
